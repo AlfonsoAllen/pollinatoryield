@@ -20,7 +20,7 @@
 eval_visitation_rate <- function(Crop,visit_rate){
   
   # Load synthetic for Crop_name
-  demo_table <- load("data/demo_table.RData")
+  # demo_table <- load("data/demo_table.RData") # Now this is done automatically. See DESCRIPTION
   
   vector_crops <- demo_table %>% select(Crop_name) %>% 
     pull() %>% unique()
