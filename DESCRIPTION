@@ -3,7 +3,7 @@ Version: 0.1
 Date: 2021-03-26
 Title: Yield prediction 
 Description: Yield prediction for certain crops based on pollinator visits
-Author: Alfonso Allen-Perkins, Felix Bross
+Author: Felix Bross, Alfonso Allen-Perkins, Ignasi Bartomeus 
 Maintainer: Felix Bross <bross.felix@gmail.com>
 RoxygenNote: 7.1.1
 Encoding: UTF-8
