@@ -27,4 +27,4 @@ Finally, here is an example.
 ```{r}
 eval_visitation_rate("Apple",12)
 ```
-![](Example/Apple_example.jpg)
+![](Example/Apple_example.jpeg)
