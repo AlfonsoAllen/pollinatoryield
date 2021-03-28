@@ -25,6 +25,6 @@ demo_table
 
 Finally, here is an example.
 ```{r}
-demo_table
+eval_visitation_rate("Apple",12)
 ```
 ![](Example/Apple_example.jpg)
