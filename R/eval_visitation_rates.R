@@ -75,7 +75,7 @@ eval_visitation_rate <- function(Crop,visit_rate){
       geom_segment(data = figure_points, aes(x = visit_rate, y = 0,
                                              xend = visit_rate, yend = real_yield),
                    linetype = "dashed")+
-      facet_wrap(~Production_unit+Main_pollinators, scales = "free_y")+
+      facet_wrap(~Production_unit2+Main_pollinators, scales = "free_y")+
       labs(x = "Visits per 100 flowers during 1 hour", y = "Yield", color = "Variety", title = Crop)
     
     
