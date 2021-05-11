@@ -2,10 +2,10 @@
 
 This package includes a function for estimating a non-inflected dependence of yield on visitation rate for several crops and some their respective varieties. The non-inflected curves are given by the equation `yield = a + b * (1 - exp(-c * visit_rate))`, where `a` represents the yield without pollinators, `b` is the maximum yield attained for the crop, and `c` is a shape parameter that depends on the visits in 100 flowers during 1 hour for full fertilization (see `?shape_par_exp_decay`).
 
-\(%F(n)=\left\{\begin{matrix}
+$%F(n)=\left\{\begin{matrix}
 100\left ( \frac{1}{ovu} \sum _{k=0}^n H(k-1)svd(eff)^k \right ) & n<m\\ 
 100 & n\geq m
-\end{matrix}\right.\)
+\end{matrix}\right.$
 
 This version is still in development. So, please, report bugs, etc.
 
