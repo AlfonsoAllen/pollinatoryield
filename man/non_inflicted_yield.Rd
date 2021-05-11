@@ -16,8 +16,8 @@ non_inflicted_yield(a, b, c, visit_rate)
 \item{visit_rate}{observed visitation rate (visits in 100 flowers during 1 hour)}
 }
 \value{
-Yield curve function for increasing number of pollinators used in the plot_yield_curves
+Yield curve function for increasing number of pollinators used in the model_eval_visitation_rate.R function
 }
 \description{
-Creates a non inflected curve function (Exponential decay - increasing form) for the plot_yield_curves function
+Creates a non inflected curve function (Exponential decay - increasing form) for the model_eval_visitation_rate.R function
 }

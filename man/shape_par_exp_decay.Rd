@@ -11,7 +11,7 @@ shape_par_exp_decay(a, b, visit_rate_full_fer, threshold = 99)
 
 \item{b}{Max. yield attained for the crop}
 
-\item{visit_rate_full_fer}{visits in 100 flowers during 1 hour for full fertilization}
+\item{visit_rate_full_fer}{visits in 100 flowers during 1 hour for full fertilization (Garibaldi 2019)}
 
 \item{threshold}{percentage of yield that is considered full fertilization (standard value = 99)}
 }
