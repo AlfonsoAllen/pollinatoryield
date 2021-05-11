@@ -1,13 +1,13 @@
 Package: pollinatoryield
-Version: 0.1
-Date: 2021-03-26
+Version: 1.0
+Date: 2021-05-11
 Title: Yield prediction 
 Description: Yield prediction for certain crops based on pollinator visits
 Author: Felix Bross, Alfonso Allen-Perkins, Ignasi Bartomeus 
 Maintainer: Felix Bross <bross.felix@gmail.com>
 RoxygenNote: 7.1.1
 Encoding: UTF-8
-Depends: 
-  ggplot2 (>= 3.3.3),
+Depends:
   tidyverse (>= 1.3.0)
 LazyData: true
+License: GPL-3
