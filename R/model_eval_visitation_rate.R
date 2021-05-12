@@ -78,6 +78,8 @@ model_eval_visitation_rate <- function(Crop,visit_rate){
                                                     figure_points$shape_parameter_lower,
                                                     visit_rate)
     
+    figure_curve$Crop_var[is.na(figure_curve$Crop_var)] <- "Not available"
+    
     ggplot(figure_curve, aes(x = visit_rate, y = yield, group = Intercept_production, color = Crop_var)) +
       geom_line()+
       geom_point(data = figure_points, aes(x = target_visitation_rate, y = opt_yield))+
