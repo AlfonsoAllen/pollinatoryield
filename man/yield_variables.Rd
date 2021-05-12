@@ -15,4 +15,123 @@ Data on crop yields from several references, with information on
 the maximum production for a given crop, and its production without insect
 visitors.
 }
+\references{
+Albano, S., Salvado, E., Duarte, S., Mexia, A., & Borges, P. (2009). 
+Pollination effectiveness of different strawberry floral visitors in Ribatejo, Portugal: 
+Selection of potential pollinators. Part 2. Advances in Horticultural Science, 23(4), 246-253.
+ Retrieved May 12, 2021, from http://www.jstor.org/stable/42883505.
+ Benjamin, F. E., & Winfree, R. (2014). Lack of Pollinators Limits Fruit Production in 
+ Commercial Blueberry (Vaccinium corymbosum). Environmental Entomology, 43(6), 1574–1583.
+  https://doi.org/10.1603/en13314
+Brown, A. O., & McNeil, J. N. (2006). Fruit production in cranberry (Ericaceae: Vaccinium 
+macrocarpon): a bet-hedging strategy to optimize reproductive effort. American Journal of 
+Botany, 93(6), 910–916. https://doi.org/10.3732/ajb.93.6.910 
+Cane, J. H., & Schiffhauer, D. (2003). Dose-response relationships between pollination and
+ fruiting refine pollinator comparisons for cranberry (Vaccinium macrocarpon [Ericaceae]). 
+ American Journal of Botany, 90(10), 1425–1432. https://doi.org/10.3732/ajb.90.10.1425 
+Cane, J. H. (2005). Pollination Potential of the Bee Osmia aglaia for Cultivated Red 
+Raspberries and Blackberries (Rubus: Rosaceae). HortScience, 40(6), 1705–1708. 
+https://doi.org/10.21273/hortsci.40.6.1705 
+Cane, J. H., & Schiffhauer, D. (2001). Pollinator genetics and pollination: do honey bee 
+colonies selected for pollen-hoarding field better pollinators of cranberry Vaccinium 
+macrocarpon ? Ecological Entomology, 26(2), 117–123. 
+https://doi.org/10.1046/j.1365-2311.2001.00309.x 
+Chagnon, M., Gingras, J., & De Oliveira, D. (1989). Effect of Honey Bee (Hymenoptera: Apidae) 
+Visits on the Pollination Rate of Strawberries. Journal of Economic Entomology, 82(5), 
+1350–1353. https://doi.org/10.1093/jee/82.5.1350
+Chagnon, M., Gingras, J., & De Oliveira, D. (1991). Honey Bee (Hymenoptera: Apidae) Foraging 
+Behavior and Raspberry Pollination. Journal of Economic Entomology, 84(2), 457–460. 
+https://doi.org/10.1093/jee/84.2.457 
+Chagnon, M., Gingras, J., & DeOliveira, D. (1993). Complementary Aspects of Strawberry 
+Pollination by Honey and IndigenQus Bees (Hymenoptera). Journal of Economic Entomology, 
+86(2), 416–420. https://doi.org/10.1093/jee/86.2.416 
+Connelly, H., Poveda, K., & Loeb, G. (2015). Landscape simplification decreases wild bee 
+pollination services to strawberry. Agriculture, Ecosystems & Environment, 211, 51–56. 
+https://doi.org/10.1016/j.agee.2015.05.004 
+Danka, R. G., Lang, G. A., & Gupton, C. L. (1993). Honey Bee (Hymenoptera: Apidae) Visits 
+and Pollen Source Effects on Fruiting of ‘Gulfcoast’ Southern Highbush Blueberry. Journal 
+of Economic Entomology, 86(1), 131–136. https://doi.org/10.1093/jee/86.1.131 
+Dedej, S., & Delaplane, K. S. (2003). Honey Bee (Hymenoptera: Apidae) Pollination of 
+Rabbiteye Blueberry <I>Vaccinium ashei</I> var. ‘Climax’ is Pollinator Density-Dependent. 
+Journal of Economic Entomology, 96(4), 1215–1220. 
+https://doi.org/10.1603/0022-0493-96.4.1215 
+Dedej, S., & Delaplane, K. S. (2004). Nectar-Robbing Carpenter Bees Reduce Seed-Setting 
+Capability of Honey Bees (Hymenoptera: Apidae) in Rabbiteye Blueberry,Vaccinium ashei, 
+‘Climax.’ Environmental Entomology, 33(1), 100–106. 
+https://doi.org/10.1603/0046-225x-33.1.100 
+Dogterom, M. H., Winston, M. L., & Mukai, A. (2000). Effect of pollen load size and 
+source (self, outcross) on seed and fruit production in highbush blueberry cv. 
+‘Bluecrop’ (VACCINIUM CORYMBOSUM;Ericaceae). American Journal of Botany, 87(11), 
+1584–1591. https://doi.org/10.2307/2656734 
+Drummond, F. (2019). Reproductive Biology of Wild Blueberry (Vaccinium angustifolium Aiton). 
+Agriculture, 9(4), 69. https://doi.org/10.3390/agriculture9040069 
+Fourez, A. (1995). IMPACT DE LA POLLINISATION PAR LES ABEILLES (Apis Mellifera LINNÉ) 
+SUR LA PRODUCTION DE POMMES, CV JONAGOLD. Belg. J. Zool. - Volume 125 (1995) - issue 1 - 
+pages 135-141.
+Hokanson, K., & Hancock, J. (2000). Early-acting inbreeding depression in three species 
+of Vaccinium (Ericaceae). Sexual Plant Reproduction, 13(3), 145–150. 
+https://doi.org/10.1007/s004970000046 
+Javorek, S. K., Mackenzie, K. E., & Vander Kloet, S. P. (2002). Comparative Pollination 
+Effectiveness Among Bees (Hymenoptera: Apoidea) on Lowbush Blueberry (Ericaceae: 
+Vaccinium angustifolium). Annals of the Entomological Society of America, 95(3), 345–351. 
+https://doi.org/10.1603/0013-8746(2002)095[0345:cpeabh]2.0.co;2 
+Kakutani, T., Inoue, T., Tezuka, T., & Maeta, Y. (1993). Pollination of strawberry by the 
+stingless bee,Trigona minangkabau, and the honey bee,Apis mellifera: An experimental study 
+of fertilization efficiency. Researches on Population Ecology, 35(1), 95–111. 
+https://doi.org/10.1007/bf02515648 
+Klein, A.-M., Vaissière, B. E., Cane, J. H., Steffan-Dewenter, I., Cunningham, S. A., 
+Kremen, C., & Tscharntke, T. (2006). Importance of pollinators in changing landscapes 
+for world crops. Proceedings of the Royal Society B: Biological Sciences, 274(1608), 
+303–313. https://doi.org/10.1098/rspb.2006.3721 
+Ladurner, E., Recla, L., Wolf, M., Zelger, R., & Burgio, G. (2004). Osmia cornuta
+(Hymenoptera Megachilidae) densities required for apple pollination: a cage study. Journal
+ of Apicultural Research, 43(3), 118–122. https://doi.org/10.1080/00218839.2004.11101121 
+MacInnis, G., & Forrest, J. R. K. (2019). Pollination by wild bees yields larger strawberries 
+than pollination by honey bees. Journal of Applied Ecology, 56(4), 824–832. 
+https://doi.org/10.1111/1365-2664.13344 
+Malagodi-Braga, K. S., & Kleinert, A. de M. P. (2004). Could Tetragonisca angustula 
+Latreille (Apinae, Meliponini) be effective as strawberry pollinator in greenhouses? 
+Australian Journal of Agricultural Research, 55(7), 771. https://doi.org/10.1071/ar03240 
+Moquet, L., Bruyère, L., Pirard, B., & Jacquemart, A.-L. (2017). Nectar foragers contribute 
+to the pollination of buzz-pollinated plant species. American Journal of Botany, 104(10), 
+1451–1463. https://doi.org/10.3732/ajb.1700090 
+Park, M. G., Raguso, R. A., Losey, J. E., & Danforth, B. N. (2015). Per-visit pollinator 
+performance and regional importance of wild Bombus and Andrena (Melandrena) compared to 
+the managed honey bee in New York apple orchards. Apidologie, 47(2), 145–160. 
+https://doi.org/10.1007/s13592-015-0383-9 
+Poveda Coronel, C. A., Riaño Jiménez, D., Aguilar Benavides, L., & Cure, J. R. (2018). 
+Eficiencia de polinización de colonias huérfanas del abejorro nativo Bombus atratus 
+(Hymenoptera: Apidae) en dos cultivares de fresa (Fragaria x ananassa) sembrados bajo 
+cubierta en la sabana de Bogotá. Acta Biológica Colombiana, 23(1), 73–79. 
+https://doi.org/10.15446/abc.v23n1.61648 
+Rogers, S. R., Tarpy, David. R., & Burrack, H. J. (2013). Multiple Criteria for Evaluating 
+Pollinator Performance in Highbush Blueberry (Ericales: Ericaceae) Agroecosystems. 
+Environmental Entomology, 42(6), 1201–1209. https://doi.org/10.1603/en12303 
+Sampson, B. J., & Cane, J. H. (2000). Pollination Efficiencies of Three Bee (Hymenoptera: 
+Apoidea) Species Visiting Rabbiteye Blueberry. Journal of Economic Entomology, 93(6), 
+1726–1731. https://doi.org/10.1603/0022-0493-93.6.1726 
+Sampson, B. J., Danka, R. G., & Stringer, S. J. (2004). Nectar Robbery by Bees Xylocopa 
+virginica and Apis mellifera Contributes to the Pollination of Rabbiteye Blueberry. Journal
+ of Economic Entomology, 97(3), 735–740. 
+ https://doi.org/10.1603/0022-0493(2004)097[0735:nrbbxv]2.0.co;2 
+Stubbs, C., & Drummond, F. (1999). Pollination of Lowbush Blueberry by Anthophora pilipes 
+villosula and Bombus impatiens (Hymenoptera: Anthophoridae and Apidae). Journal of the 
+Kansas Entomological Society, 72(3), 330-333. Retrieved May 12, 2021, from 
+http://www.jstor.org/stable/25085918 
+Thomson, J. D., & Goodell, K. (2001). Pollen removal and deposition by honeybee and 
+bumblebee visitors to apple and almond flowers. Journal of Applied Ecology, 38(5), 
+1032–1044. https://doi.org/10.1046/j.1365-2664.2001.00657.x 
+Vicens, N., & Bosch, J. (2000). Pollinating Efficacy ofOsmia cornutaandApis mellifera
+(Hymenoptera: Megachilidae, Apidae) on ‘Red Delicious’ Apple. Environmental Entomology, 
+29(2), 235–240. https://doi.org/10.1093/ee/29.2.235 
+West, T. P., & McCutcheon, T. W. (2009). EvaluatingOsmia cornifronsas Pollinators of 
+Highbush Blueberry. International Journal of Fruit Science, 9(2), 115–125. 
+https://doi.org/10.1080/15538360902991303 
+WILLMER, P. G., BATAW, A. A. M., & HUGHES, J. P. (1994). The superiority of bumblebees to 
+honeybees as pollinators: insect visits to raspberry flowers. Ecological Entomology, 19(3),
+271–284. https://doi.org/10.1111/j.1365-2311.1994.tb00419.x 
+Zebrowska, J. (1998). Influence of pollination modes on yield components in strawberry 
+(Fragaria x ananassa Duch.). Plant Breeding, 117(3), 255–260. 
+https://doi.org/10.1111/j.1439-0523.1998.tb01935.x
+}
 \keyword{datasets}
