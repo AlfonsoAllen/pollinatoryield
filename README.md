@@ -60,11 +60,11 @@ The equation also fits with the ecological assumption that number of ovules indi
 Finally, here is an example that show the relation between the seed set parameters.
 ```{r}
 # We get the parameter information for a given crop
-data_crop <- curve_ovule_parameters("Blueberry",0)
+data_crop <- curve_ovule_parameters("Vaccinium angustifolium",0)
 
 data_crop
 
-# A tibble: 28 x 10
+# A tibble: 12 x 10
    Crop_name Crop_species    Crop_var Species           svd   ovu  self   eff target_visits min_visits
    <chr>     <chr>           <chr>    <chr>           <dbl> <dbl> <dbl> <dbl>         <dbl>      <dbl>
  1 Blueberry Vaccinium angu~ NA       Megachile rotu~  46.4    63     0 0.576            10          2
@@ -77,33 +77,34 @@ data_crop
  8 Blueberry Vaccinium angu~ NA       Apis mellifera   46.8    63     0 0.574            10          2
  9 Blueberry Vaccinium angu~ Aiton    Anthonophora p~  30      63     0 0.677            14          3
 10 Blueberry Vaccinium angu~ Aiton    Bombus impatie~  40      63     0 0.612            11          2
-# ... with 18 more rows
+11 Blueberry Vaccinium angu~ Aiton    Anthonophora p~  30      63     0 0.677            14          3
+12 Blueberry Vaccinium angu~ Aiton    Bombus impatie~  40      63     0 0.612            11          2
 
 # We plot the dependence of the percentage of fecundated ovules on the number of visits for a given floral visitor of our target crop
-i=14 # Visitor: Colletes sp. 
+i=9 # Visitor: Anthonophora pilipes villosula 
 
-example_1 <- tibble(visits=c(0:60),
+example_1 <- tibble(visits=c(0:30),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],1,c(0:60)),
+                                                                    data_crop$self[i],1,c(0:30)),
                     efficiency = paste0("eff. = 1.00"))
 
-example_2 <- tibble(visits=c(0:60),
+example_2 <- tibble(visits=c(0:30),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],data_crop$eff[i],c(0:60)),
+                                                                    data_crop$self[i],data_crop$eff[i],c(0:30)),
                     efficiency = paste0("eff. = ",round(data_crop$eff[i],2)))
 
-example_3 <- tibble(visits=c(0:60),
+example_3 <- tibble(visits=c(0:30),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],0.5,c(0:60)),
+                                                                    data_crop$self[i],0.5,c(0:30)),
                     efficiency = paste0("eff. = 0.50"))
 
-example_4 <- tibble(visits=c(0:60),
+example_4 <- tibble(visits=c(0:30),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],0,c(0:60)),
+                                                                    data_crop$self[i],0,c(0:30)),
                     efficiency = paste0("eff. = 0.00"))
 
 
