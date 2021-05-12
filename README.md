@@ -60,55 +60,46 @@ The equation also fits with the ecological assumption that number of ovules indi
 Finally, here is an example that show the relation between the seed set parameters.
 ```{r}
 # We get the parameter information for a given crop
-data_crop <- curve_ovule_parameters("Vaccinium angustifolium",0)
+data_crop <- curve_ovule_parameters("Rubus idaeus",0)
 
 data_crop
 
-# A tibble: 12 x 10
-   Crop_name Crop_species    Crop_var Species           svd   ovu  self   eff target_visits min_visits
-   <chr>     <chr>           <chr>    <chr>           <dbl> <dbl> <dbl> <dbl>         <dbl>      <dbl>
- 1 Blueberry Vaccinium angu~ NA       Megachile rotu~  46.4    63     0 0.576            10          2
- 2 Blueberry Vaccinium angu~ NA       Megachile rotu~  51.6    63     0 0.550             9          2
- 3 Blueberry Vaccinium angu~ NA       Megachile rotu~ 111.     63     0 0.362             6          1
- 4 Blueberry Vaccinium angu~ NA       Bombus ssp. (Q~ 202.     63     0 0.237             4          1
- 5 Blueberry Vaccinium angu~ NA       Bombus ssp. (W~ 137.     63     0 0.315             5          1
- 6 Blueberry Vaccinium angu~ NA       Andrena ssp.    185.     63     0 0.254             4          1
- 7 Blueberry Vaccinium angu~ NA       Halictus ssp.   103.     63     0 0.379             6          1
- 8 Blueberry Vaccinium angu~ NA       Apis mellifera   46.8    63     0 0.574            10          2
- 9 Blueberry Vaccinium angu~ Aiton    Anthonophora p~  30      63     0 0.677            14          3
-10 Blueberry Vaccinium angu~ Aiton    Bombus impatie~  40      63     0 0.612            11          2
-11 Blueberry Vaccinium angu~ Aiton    Anthonophora p~  30      63     0 0.677            14          3
-12 Blueberry Vaccinium angu~ Aiton    Bombus impatie~  40      63     0 0.612            11          2
+# A tibble: 5 x 10
+  Crop_name Crop_species Crop_var  Species             svd   ovu  self   eff target_visits min_visits
+  <chr>     <chr>        <chr>     <chr>             <dbl> <dbl> <dbl> <dbl>         <dbl>      <dbl>
+1 Raspberry Rubus idaeus Glen Cova Bombus lapidarius    74    90     0 0.549             9          2
+2 Raspberry Rubus idaeus Glen Cova Bombus terrestris    82    90     0 0.523             9          2
+3 Raspberry Rubus idaeus Glen Cova Bombus pratorum      68    90     0 0.570            10          2
+4 Raspberry Rubus idaeus Glen Cova Bombus pascuorum     70    90     0 0.562            10          2
+5 Raspberry Rubus idaeus Glen Cova Apis mellifera       47    90     0 0.657            13          2
 
-# We plot the dependence of the percentage of fecundated ovules on the number of visits for a given floral visitor of our target crop
-i=9 # Visitor: Anthonophora pilipes villosula 
+# Plot the dependence of the percentage of fecundated ovules on the number of visits for a given floral visitor of our target crop
+i = 4 # Visitor: Bombus pascuorum 
 
-example_1 <- tibble(visits=c(0:30),
+example_1 <- tibble(visits=c(0:20),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],1,c(0:30)),
+                                                                    data_crop$self[i],1,c(0:20)),
                     efficiency = paste0("eff. = 1.00"))
 
-example_2 <- tibble(visits=c(0:30),
+example_2 <- tibble(visits=c(0:20),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],data_crop$eff[i],c(0:30)),
+                                                                    data_crop$self[i],data_crop$eff[i],c(0:20)),
                     efficiency = paste0("eff. = ",round(data_crop$eff[i],2)))
 
-example_3 <- tibble(visits=c(0:30),
+example_3 <- tibble(visits=c(0:20),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],0.5,c(0:30)),
+                                                                    data_crop$self[i],0.5,c(0:20)),
                     efficiency = paste0("eff. = 0.50"))
 
-example_4 <- tibble(visits=c(0:30),
+example_4 <- tibble(visits=c(0:20),
                     percentage_fecundated_ovules = evolution_ovules(data_crop$svd[i],
                                                                     data_crop$ovu[i],
-                                                                    data_crop$self[i],0,c(0:30)),
+                                                                    data_crop$self[i],0,c(0:20)),
                     efficiency = paste0("eff. = 0.00"))
-
-
-
+                    
 ggplot(bind_rows(example_1,example_2,example_3,example_4), 
        aes(x=visits,y=percentage_fecundated_ovules,color =efficiency))+
   geom_point()+
